@@ -247,11 +247,6 @@ FEAnimations_2.TextStrokeColor3 = Color3.fromRGB(20, 154, 4)
 FEAnimations_2.TextStrokeTransparency = 0.000
 FEAnimations_2.TextWrapped = true
 FEAnimations_2.MouseButton1Down.connect(function()
-	-- OrPlayz, stop removing my credits and giving my showcased animation scripts to Dark Eccentric
-
-
-
-
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "WARNING"; 
 		Text = "FPS Should be at 30"; -- so animation doesnt play fast
@@ -793,7 +788,6 @@ HatHUB.MouseButton1Down:connect(function()
 	Hand.TextSize = 30.000
 	Hand.TextWrapped = true
 	Hand.MouseButton1Down:connect(function()
-
 		local unanchoredparts = {}
 		local movers = {}
 		local tog = true
