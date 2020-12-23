@@ -1,0 +1,387 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local TheStreets = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local Top = Instance.new("ImageLabel")
+local TheStreets_2 = Instance.new("TextLabel")
+local SideBar = Instance.new("ImageLabel")
+local Frame_2 = Instance.new("Frame")
+local AidezV3 = Instance.new("ImageLabel")
+local AidezV3_2 = Instance.new("TextButton")
+local Vibin = Instance.new("ImageLabel")
+local Vibin_2 = Instance.new("TextButton")
+local CyrusTSAdmin = Instance.new("ImageLabel")
+local CyrusTSAdmin_2 = Instance.new("TextButton")
+local xsTSAdmin = Instance.new("ImageLabel")
+local xsTSAdmin_2 = Instance.new("TextButton")
+local serino = Instance.new("ImageLabel")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+TheStreets.Name = "The Streets"
+TheStreets.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = TheStreets
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Main.BackgroundTransparency = 1.000
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(-0.00097155082, 0, -0.000712861191, 0)
+Main.Size = UDim2.new(0, 180, 0, 312)
+Main.Image = "rbxassetid://3570695787"
+Main.ImageColor3 = Color3.fromRGB(25, 25, 25)
+Main.ScaleType = Enum.ScaleType.Slice
+Main.SliceCenter = Rect.new(100, 100, 100, 100)
+Main.SliceScale = 0.120
+Main.Draggable = true
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0155641343, 0, 0.137820512, 0)
+Frame.Size = UDim2.new(0, 177, 0, 6)
+
+Top.Name = "Top"
+Top.Parent = Frame
+Top.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Top.BackgroundTransparency = 1.000
+Top.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Top.BorderSizePixel = 0
+Top.Position = UDim2.new(-0.00553661259, 0, -7.16413355, 0)
+Top.Size = UDim2.new(0, 177, 0, 48)
+Top.Image = "rbxassetid://3570695787"
+Top.ImageColor3 = Color3.fromRGB(16, 16, 15)
+Top.ScaleType = Enum.ScaleType.Slice
+Top.SliceCenter = Rect.new(100, 100, 100, 100)
+Top.SliceScale = 0.120
+
+TheStreets_2.Name = "The Streets"
+TheStreets_2.Parent = Top
+TheStreets_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TheStreets_2.BackgroundTransparency = 1.000
+TheStreets_2.BorderColor3 = Color3.fromRGB(57, 255, 6)
+TheStreets_2.BorderSizePixel = 5
+TheStreets_2.Position = UDim2.new(0.240027919, 0, 0.0480769426, 0)
+TheStreets_2.Size = UDim2.new(0, 91, 0, 40)
+TheStreets_2.Font = Enum.Font.SourceSansBold
+TheStreets_2.Text = "The Streets"
+TheStreets_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TheStreets_2.TextScaled = true
+TheStreets_2.TextSize = 14.000
+TheStreets_2.TextStrokeColor3 = Color3.fromRGB(20, 154, 4)
+TheStreets_2.TextStrokeTransparency = 0.000
+TheStreets_2.TextWrapped = true
+
+SideBar.Name = "SideBar"
+SideBar.Parent = Main
+SideBar.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+SideBar.BackgroundTransparency = 1.000
+SideBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SideBar.BorderSizePixel = 0
+SideBar.Position = UDim2.new(0, 0, -0.000674125447, 0)
+SideBar.Size = UDim2.new(0, 8, 0, 312)
+SideBar.Image = "rbxassetid://3570695787"
+SideBar.ImageColor3 = Color3.fromRGB(20, 154, 4)
+SideBar.ScaleType = Enum.ScaleType.Slice
+SideBar.SliceCenter = Rect.new(100, 100, 100, 100)
+SideBar.SliceScale = 0.120
+
+Frame_2.Parent = SideBar
+Frame_2.BackgroundColor3 = Color3.fromRGB(20, 154, 4)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.625, 0, 0.00387925375, 0)
+Frame_2.Size = UDim2.new(0, 3, 0, 311)
+
+AidezV3.Name = "Aidez V3"
+AidezV3.Parent = Main
+AidezV3.Active = true
+AidezV3.AnchorPoint = Vector2.new(0.5, 0.5)
+AidezV3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AidezV3.BackgroundTransparency = 1.000
+AidezV3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AidezV3.Position = UDim2.new(0.503610075, 0, 0.253939897, 0)
+AidezV3.Selectable = true
+AidezV3.Size = UDim2.new(0.79515779, 0, 0.152986288, 0)
+AidezV3.Image = "rbxassetid://3570695787"
+AidezV3.ImageColor3 = Color3.fromRGB(16, 16, 15)
+AidezV3.ScaleType = Enum.ScaleType.Slice
+AidezV3.SliceCenter = Rect.new(100, 100, 100, 100)
+AidezV3.SliceScale = 0.120
+
+AidezV3_2.Name = "Aidez V3"
+AidezV3_2.Parent = AidezV3
+AidezV3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AidezV3_2.BackgroundTransparency = 1.000
+AidezV3_2.BorderSizePixel = 0
+AidezV3_2.Position = UDim2.new(0.0450000502, 0, 0.149049312, 0)
+AidezV3_2.Size = UDim2.new(0, 132, 0, 33)
+AidezV3_2.Font = Enum.Font.ArialBold
+AidezV3_2.Text = "Aidez V3"
+AidezV3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AidezV3_2.TextScaled = true
+AidezV3_2.TextSize = 14.000
+AidezV3_2.TextStrokeColor3 = Color3.fromRGB(20, 154, 4)
+AidezV3_2.TextStrokeTransparency = 0.000
+AidezV3_2.TextWrapped = true
+AidezV3_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Aidez/MegaCombat/master/V3", true))()
+end)
+
+Vibin.Name = "Vibin"
+Vibin.Parent = Main
+Vibin.Active = true
+Vibin.AnchorPoint = Vector2.new(0.5, 0.5)
+Vibin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Vibin.BackgroundTransparency = 1.000
+Vibin.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Vibin.Position = UDim2.new(0.503610075, 0, 0.436632216, 0)
+Vibin.Selectable = true
+Vibin.Size = UDim2.new(0.79515779, 0, 0.152986288, 0)
+Vibin.Image = "rbxassetid://3570695787"
+Vibin.ImageColor3 = Color3.fromRGB(16, 16, 15)
+Vibin.ScaleType = Enum.ScaleType.Slice
+Vibin.SliceCenter = Rect.new(100, 100, 100, 100)
+Vibin.SliceScale = 0.120
+
+Vibin_2.Name = "Vibin"
+Vibin_2.Parent = Vibin
+Vibin_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Vibin_2.BackgroundTransparency = 1.000
+Vibin_2.BorderSizePixel = 0
+Vibin_2.Position = UDim2.new(0.0450000502, 0, 0.149049312, 0)
+Vibin_2.Size = UDim2.new(0, 132, 0, 33)
+Vibin_2.Font = Enum.Font.ArialBold
+Vibin_2.Text = "Vibin"
+Vibin_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vibin_2.TextScaled = true
+Vibin_2.TextSize = 14.000
+Vibin_2.TextStrokeColor3 = Color3.fromRGB(20, 154, 4)
+Vibin_2.TextStrokeTransparency = 0.000
+Vibin_2.TextWrapped = true
+Vibin_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/PUNKSLASHA/vibin-TS-admin/main/e", true))()
+end)
+
+CyrusTSAdmin.Name = "Cyrus TS Admin"
+CyrusTSAdmin.Parent = Main
+CyrusTSAdmin.Active = true
+CyrusTSAdmin.AnchorPoint = Vector2.new(0.5, 0.5)
+CyrusTSAdmin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CyrusTSAdmin.BackgroundTransparency = 1.000
+CyrusTSAdmin.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CyrusTSAdmin.Position = UDim2.new(0.503610075, 0, 0.625734806, 0)
+CyrusTSAdmin.Selectable = true
+CyrusTSAdmin.Size = UDim2.new(0.79515779, 0, 0.152986288, 0)
+CyrusTSAdmin.Image = "rbxassetid://3570695787"
+CyrusTSAdmin.ImageColor3 = Color3.fromRGB(16, 16, 15)
+CyrusTSAdmin.ScaleType = Enum.ScaleType.Slice
+CyrusTSAdmin.SliceCenter = Rect.new(100, 100, 100, 100)
+CyrusTSAdmin.SliceScale = 0.120
+
+CyrusTSAdmin_2.Name = "Cyrus TS Admin"
+CyrusTSAdmin_2.Parent = CyrusTSAdmin
+CyrusTSAdmin_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CyrusTSAdmin_2.BackgroundTransparency = 1.000
+CyrusTSAdmin_2.BorderSizePixel = 0
+CyrusTSAdmin_2.Position = UDim2.new(0.0450000502, 0, 0.149049312, 0)
+CyrusTSAdmin_2.Size = UDim2.new(0, 132, 0, 33)
+CyrusTSAdmin_2.Font = Enum.Font.ArialBold
+CyrusTSAdmin_2.Text = "Cyrus TS Admin"
+CyrusTSAdmin_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+CyrusTSAdmin_2.TextScaled = true
+CyrusTSAdmin_2.TextSize = 14.000
+CyrusTSAdmin_2.TextStrokeColor3 = Color3.fromRGB(20, 154, 4)
+CyrusTSAdmin_2.TextStrokeTransparency = 0.000
+CyrusTSAdmin_2.TextWrapped = true
+CyrusTSAdmin_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Not-Cyrus/Streets-Script/master/Streets%20Admin.lua", true))()
+end)
+
+xsTSAdmin.Name = "xs TS Admin"
+xsTSAdmin.Parent = Main
+xsTSAdmin.Active = true
+xsTSAdmin.AnchorPoint = Vector2.new(0.5, 0.5)
+xsTSAdmin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+xsTSAdmin.BackgroundTransparency = 1.000
+xsTSAdmin.BorderColor3 = Color3.fromRGB(27, 42, 53)
+xsTSAdmin.Position = UDim2.new(0.503610075, 0, 0.827657878, 0)
+xsTSAdmin.Selectable = true
+xsTSAdmin.Size = UDim2.new(0.79515779, 0, 0.152986288, 0)
+xsTSAdmin.Image = "rbxassetid://3570695787"
+xsTSAdmin.ImageColor3 = Color3.fromRGB(16, 16, 15)
+xsTSAdmin.ScaleType = Enum.ScaleType.Slice
+xsTSAdmin.SliceCenter = Rect.new(100, 100, 100, 100)
+xsTSAdmin.SliceScale = 0.120
+
+xsTSAdmin_2.Name = "xs TS Admin"
+xsTSAdmin_2.Parent = xsTSAdmin
+xsTSAdmin_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+xsTSAdmin_2.BackgroundTransparency = 1.000
+xsTSAdmin_2.BorderSizePixel = 0
+xsTSAdmin_2.Position = UDim2.new(0.0450000502, 0, 0.149049312, 0)
+xsTSAdmin_2.Size = UDim2.new(0, 132, 0, 33)
+xsTSAdmin_2.Font = Enum.Font.ArialBold
+xsTSAdmin_2.Text = "xs TS Admin"
+xsTSAdmin_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+xsTSAdmin_2.TextScaled = true
+xsTSAdmin_2.TextSize = 14.000
+xsTSAdmin_2.TextStrokeColor3 = Color3.fromRGB(20, 154, 4)
+xsTSAdmin_2.TextStrokeTransparency = 0.000
+xsTSAdmin_2.TextWrapped = true
+xsTSAdmin_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/KGZCKH23", true))()
+end)
+
+serino.Name = "serino"
+serino.Parent = Main
+serino.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+serino.BackgroundTransparency = 1.000
+serino.Position = UDim2.new(0.838124216, 0, 0.00160258915, 0)
+serino.Size = UDim2.new(0, 27, 0, 27)
+serino.Image = "http://www.roblox.com/asset/?id=5806227321"
+serino.ImageColor3 = Color3.fromRGB(252, 255, 241)
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.838124037, 0, 0.00641025603, 0)
+Close.Size = UDim2.new(0, 32, 0, 27)
+Close.Font = Enum.Font.SourceSans
+Close.Text = " "
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+
+-- Scripts:
+
+local function EGIDI_fake_script() -- TheStreets_2.LocalScript 
+	local script = Instance.new('LocalScript', TheStreets_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1) do
+		
+		script.Parent.TextStrokeColor3 = Color3.fromHSV(zigzag(counter),1,1)
+		
+		counter = counter + 0.01
+		
+	end
+end
+coroutine.wrap(EGIDI_fake_script)()
+local function YHZBWHZ_fake_script() -- Frame_2.LocalScript 
+	local script = Instance.new('LocalScript', Frame_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1) do
+		
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+		
+		counter = counter + 0.01
+		
+	end
+end
+coroutine.wrap(YHZBWHZ_fake_script)()
+local function TWLLZS_fake_script() -- SideBar.LocalScript 
+	local script = Instance.new('LocalScript', SideBar)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1) do
+		
+		script.Parent.ImageColor3 = Color3.fromHSV(zigzag(counter),1,1)
+		
+		counter = counter + 0.01
+		
+	end
+end
+coroutine.wrap(TWLLZS_fake_script)()
+local function XOKAFO_fake_script() -- AidezV3_2.LocalScript 
+	local script = Instance.new('LocalScript', AidezV3_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1) do
+		
+		script.Parent.TextStrokeColor3 = Color3.fromHSV(zigzag(counter),1,1)
+		
+		counter = counter + 0.01
+		
+	end
+end
+coroutine.wrap(XOKAFO_fake_script)()
+local function OHAQ_fake_script() -- Vibin_2.LocalScript 
+	local script = Instance.new('LocalScript', Vibin_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1) do
+		
+		script.Parent.TextStrokeColor3 = Color3.fromHSV(zigzag(counter),1,1)
+		
+		counter = counter + 0.01
+		
+	end
+end
+coroutine.wrap(OHAQ_fake_script)()
+local function CVYBN_fake_script() -- CyrusTSAdmin_2.LocalScript 
+	local script = Instance.new('LocalScript', CyrusTSAdmin_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1) do
+		
+		script.Parent.TextStrokeColor3 = Color3.fromHSV(zigzag(counter),1,1)
+		
+		counter = counter + 0.01
+		
+	end
+end
+coroutine.wrap(CVYBN_fake_script)()
+local function BSKO_fake_script() -- xsTSAdmin_2.LocalScript 
+	local script = Instance.new('LocalScript', xsTSAdmin_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1) do
+		
+		script.Parent.TextStrokeColor3 = Color3.fromHSV(zigzag(counter),1,1)
+		
+		counter = counter + 0.01
+		
+	end
+end
+coroutine.wrap(BSKO_fake_script)()
+local function FAALB_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+	
+	end)
+end
+coroutine.wrap(FAALB_fake_script)()
